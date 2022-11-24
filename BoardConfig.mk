@@ -76,7 +76,6 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
 
 DEVICE_MANIFEST_FILE := \
     $(DEVICE_PATH)/hidl/manifest_lahaina.xml \
-    $(DEVICE_PATH)/hidl/manifest_lineage.xml \
     $(DEVICE_PATH)/hidl/manifest_xiaomi.xml
 
 # Kernel
