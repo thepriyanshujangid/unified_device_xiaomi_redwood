@@ -31,6 +31,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=$(PRODUCT_SYSTEM_DEVICE) \
     DeviceProduct=$(PRODUCT_SYSTEM_NAME)
 
-# Exclude apps
-TARGET_DISABLE_MATLOG := true
-TARGET_EXCLUDES_AUDIOFX := true
+# Whether you are compiling being an OFFICIAL Maintainer:
+INFINITY_BUILD_TYPE := UNOFFICIAL
+
+# Maintainer Name
+INFINITY_MAINTAINER := BlueHeart016
+
+# Whether Including Google Apps
+WITH_GAPPS := true
